@@ -4,15 +4,14 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import MidContainer from './components/MidContainer/MidContainer'
+import ProductToCart from './components/productToCart/productToCart'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <h1 className="text-5xl font-bold text-primary">
-        Add Products To Carts
-      </h1>
+      <ProductToCart> </ProductToCart>
       {/* <MidContainer>
         
       </MidContainer> */}

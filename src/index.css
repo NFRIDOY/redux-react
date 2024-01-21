@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-primary1 {
-    @apply text-white btn btn-primary;
+    @apply text-white btn btn-primary mx-2;
   }
 }
 
