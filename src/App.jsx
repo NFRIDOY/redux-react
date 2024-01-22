@@ -5,13 +5,15 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import MidContainer from './components/MidContainer/MidContainer'
 import ProductToCart from './components/productToCart/productToCart'
+import BankTranc from './components/BankTranc/BankTranc'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <ProductToCart> </ProductToCart>
+      {/* <ProductToCart> </ProductToCart> */}
+      <BankTranc></BankTranc>
       {/* <MidContainer>
         
       </MidContainer> */}
